@@ -8,10 +8,10 @@ require('dotenv').config();
 const path = require("path");
 
 const {
-  DATABASE_URL = "postgres://thinkful_reservation_user:h3sz7jUb77AH5J7i4yKOQSHjpWYSBobP@dpg-cgvhd6qut4mc4k8iqgt0-a.oregon-postgres.render.com/thinkful_reservation",
-  DATABASE_URL_DEVELOPMENT = "postgres://thinkful_reservation_user:h3sz7jUb77AH5J7i4yKOQSHjpWYSBobP@dpg-cgvhd6qut4mc4k8iqgt0-a/thinkful_reservation",
-  DATABASE_URL_TEST = "postgres://thinkful_reservation_user:h3sz7jUb77AH5J7i4yKOQSHjpWYSBobP@dpg-cgvhd6qut4mc4k8iqgt0-a.oregon-postgres.render.com/thinkful_reservation",
-  DATABASE_URL_PREVIEW = "postgres://thinkful_reservation_user:h3sz7jUb77AH5J7i4yKOQSHjpWYSBobP@dpg-cgvhd6qut4mc4k8iqgt0-a.oregon-postgres.render.com/thinkful_reservation",
+  DATABASE_URL = "postgres://twbxkkmz:FRZ9ctWfqqrkxHfCGCKvo84VSNloXWvV@heffalump.db.elephantsql.com/twbxkkmz",
+  DATABASE_URL_DEVELOPMENT = "postgres://pjwukfje:hnf3EVBx3sAmT6n9vuTcd3W1YEqX3fEZ@heffalump.db.elephantsql.com/pjwukfje",
+  DATABASE_URL_TEST = "postgres://pjwukfje:hnf3EVBx3sAmT6n9vuTcd3W1YEqX3fEZ@heffalump.db.elephantsql.com/pjwukfje",
+  DATABASE_URL_PREVIEW = "postgres://twbxkkmz:FRZ9ctWfqqrkxHfCGCKvo84VSNloXWvV@heffalump.db.elephantsql.com/twbxkkmz",
   DEBUG,
 } = process.env;
 
