@@ -1,6 +1,6 @@
 # Restaurant Reservation System
 This is a restaurant reservation system that allows customers to create and manage reservations, as well as view the restaurant's availability and seating arrangements. The system is built using Node.js, Express, Knex, and PostgreSQL for the backend, and React and Bootstrap for the frontend.
-
+##  Link: https://thinkful-restaurant-system.vercel.app/dashboard
 ## Features
 - Customers can create new reservations by providing their name, phone number, date, time, and party size.
 - Customers can view their existing reservations and edit or cancel them if necessary.
