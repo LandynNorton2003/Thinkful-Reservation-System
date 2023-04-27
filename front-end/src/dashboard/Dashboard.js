@@ -59,6 +59,7 @@ function Dashboard({
   return (
     <main>
       <h1>Dashboard</h1>
+      <h4 className="mb-0">IMPORTANT: Due to limitations of Renders free plan, data may take 1-2 minutes to load!</h4>
       <h4 className="mb-0">Reservations for {date}</h4>
       <button
         className="btn btn-secondary m-1"
